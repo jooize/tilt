@@ -120,8 +120,8 @@ module Tilt
 
   # Markdown
   register_lazy :BlueClothTemplate,  'tilt/bluecloth', 'markdown', 'mkd', 'md'
-  register_lazy :MarukuTemplate,     'tilt/maruku',    'markdown', 'mkd', 'md'
   register_lazy :KramdownTemplate,   'tilt/kramdown',  'markdown', 'mkd', 'md'
+  register_lazy :MarukuTemplate,     'tilt/maruku',    'markdown', 'mkd', 'md'
   register_lazy :RDiscountTemplate,  'tilt/rdiscount', 'markdown', 'mkd', 'md'
   register_lazy :RedcarpetTemplate,  'tilt/redcarpet', 'markdown', 'mkd', 'md'
 
