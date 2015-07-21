@@ -46,6 +46,7 @@ group :secondary do
     gem 'redcarpet' if RUBY_VERSION > '1.8.7'
     gem 'rdiscount', '>= 2.1.6' if RUBY_VERSION != '1.9.2'
     gem 'RedCloth'
+    gem 'motion-markdown-it'
   end
 
   platform :mri do
